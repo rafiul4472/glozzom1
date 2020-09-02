@@ -1,0 +1,112 @@
+
+.navbar{
+  background:#000;
+}
+.navbar .nav-item{
+  padding-left:1rem;
+}
+.navbar .nav-link{
+  text-transform: uppercase;
+}
+.carousel-item{
+  height: 450px;
+}
+.carousel-img-1{
+  background: url('img/image1.jpeg');
+  background-size: cover;
+}
+.carousel-img-2{
+  background: url('img/image2.jpeg');
+  background-size: cover;
+}
+.carousel-img-3{
+  background: url('img/image3.jpeg');
+  background-size: cover;
+}
+#homeicon .fa{
+  font-size: 50px;
+}
+#getstart{
+
+  background: url('img/bg1.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  min-height: 250px;
+  position: relative;
+}
+
+#getstart .dark-overley{
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+    position:absolute;
+}
+#home-video{
+  background: url('img/people.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  min-height: 250px;
+}
+#home-video .fa{
+  font-size: 50px;
+  color: #ff0000;
+}
+#photo-gallery img{
+  min-height: 250px;
+}
+#copyright{
+  background: #000;
+}
+#page-header{
+  background: url('img/image1.jpeg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  height: 200px;
+}
+#services-page-header{
+  background: url('img/image3.jpeg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  height: 200px;
+}
+#about-info img{
+width: 350px;
+height:350px;
+}
+#icon-boxes .fa{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#testimonial .slick-prev::before,.slick-next::before{
+  color:#000;
+}
+#blog img{
+  height: 250px;
+}
+
+@media (max-width:767px) {
+  .navbar .nav-item{
+    padding-left:0rem;
+  }
+
+}
+@media (max-width:767px){
+  #getstart{
+    min-height: 300px;
+  }
+}
+@media (max-width:480px) {
+  .carousel h2{
+    font-size: 2.5rem;
+  }
+  #getstart{
+    min-height: 400px;
+  }
+}
